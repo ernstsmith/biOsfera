@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap');
+
+body {
+	background-color: #f2f2f2;
+	font-family: 'East Sea Dokdo', cursive;
+	font-weight: 300;
+	font-size: 56 px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 30 px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'East Sea Dokdo', cursive;
+	font-weight: 300;
+	color: #333;
+}
+
+p {
+	line-height: 29 px;
+	margin-bottom: 25 px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	font-size: 40px;
+	color: #003000;
+}
+
+a:hover, a:focus {
+	color: #76555;
+	text-decoration: none;
+	outline:0;
+}
+
+
+hr {
+	display: block;
+	height: 5 px;
+	border: 0;
+	border-top: 1 px solid #66666;
+	margin: 1 em 0;
+	padding: 0;
+}
+
+li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.navbar{
+	font-weight: 800 px;
+	font-size: 34 px;
+	padding-top: 10 px;
+	padding-bottom: 10 px;
+}
+
+.navbar-inverse {
+	backgraund: #444324;
+	border-color: #321;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+}
+
+.navbar-expand .navbar-brand {
+	color: #99943;
+	font-weight: bolder;
+	font-size: 42 px;
+	letter-spacing: 1 px;
+}
+
+#headerwrap {
+	background: url(../img/science.1356x665.jpg) no-repeat center top;
+	height: 350px;
+	margin-top: -10 px;
+	padding-top: 20 px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center;
+	min-height: 200 px;
+	width: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+#headerwrap h1{
+	margin-top: 100 px;
+	color: white;
+	font-size: 70 px;
+	font-weight: 300 px;
+	letter-spacing: 3 px;
+}
+#headerwrap h2{
+	color: white;
+	font-size: 40 px;
+	letter-spacing: 2 px;
+	text-transform: uppercase;
+}
+
+.w {
+	padding-top: 35 px;
+}
+.w h4 {
+	font-size: 25 px;
+}
+#dg {
+	background: #e0e0e0;
+	padding-top: 70 px;
+	padding-bottom: 70 px;
+	text-align: center;
+}
+#dg h4 {
+	font-size: 40 px;
+}
+.wb {
+	padding-top: 35 px;
+	margin-bottom:
+}
+.wb h4 {
+	font-size: 35 px;
+}
+
+#lg {
+	background: #ebebeb;
+	padding-top: 70 px;
+	padding-bottom: 70 px;
+	text-align: center;
+}
+#lg h4 {
+	font-size: 45 px;
+}
+
+#r {
+	background: #ff7878;
+	padding-top: 70 px;
+	padding-bottom: 70 px;
+}
+
+#r h4 {
+	color: white;
+	font-size: 45 px;
+}
+
+#r p {
+	color: white;
+}
+
+#f {
+	background: #2d2d2d;
+	padding-top: 30 px;
+	padding-bottom: 20 px;
+}
+
+#f i {
+	color: #bdbdbd;
+	font-size: 30 px;
+	padding: 20 px;
+}
+#f i:hover {
+	color: #ff7878;
+}
